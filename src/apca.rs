@@ -1,4 +1,4 @@
-use eframe::egui;
+use egui;
 
 // originals
 const S_TRC: f32 = 2.4;
