@@ -14,7 +14,7 @@ exclude = ["examples", "media"]
 members = ["examples/hello_colors"]
 
 [dependencies]
-eframe = { version = "0.28.1", default-features=false, features = ["winit/default", "default_fonts", "web_screen_reader", "glow", "wayland", "x11"] }
+eframe = { version = "0.28.1" } #, default-features=false, features = ["winit/default", "default_fonts", "web_screen_reader", "glow", "wayland", "x11"] }
 #eframe = "0.28.1"
 palette = "0.7.6"
 
