@@ -79,8 +79,7 @@ impl Colorix {
             self.scales.dark_mode = true;
             if ui
                 .add(
-                    egui::Button::new(egui::RichText::new("☀").size(20.))
-                        .min_size(egui::Vec2::new(30., 30.))
+                    egui::Button::new("☀")
                         .frame(false),
                 )
                 .on_hover_text("Switch to light mode")
@@ -95,8 +94,7 @@ impl Colorix {
         } else {
             if ui
                 .add(
-                    egui::Button::new(egui::RichText::new("🌙").size(20.))
-                        .min_size(egui::Vec2::new(30., 30.))
+                    egui::Button::new("🌙")
                         .frame(false),
                 )
                 .on_hover_text("Switch to dark mode")
