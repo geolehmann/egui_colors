@@ -14,7 +14,7 @@ pub mod tokens;
 /// Some predefined themes
 pub mod utils;
 
-use eframe::egui;
+use egui;
 use scales::Scales;
 use tokens::{ColorPreset, ColorTokens};
 use utils::{DROPDOWN_TEXT, LABELS, THEMES, THEME_NAMES};
